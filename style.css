@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 100%;
+}
+/* header */
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #edeef4;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+}
+.maincontainer{
+    width: 100%;
+}
+/* website logo  */
+.logo {
+  
+    width: 10%;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.navbar {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+/*  nav items */
+.navbar li {
+    padding: 0 20px;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+
+/* nav a tag*/
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    /* transition: 0.5s ease; */
+}
