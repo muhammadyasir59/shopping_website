@@ -59,7 +59,13 @@
     font-size: 16px;
     font-weight: 600;
     color: black;
-    /* transition: 0.5s ease; */
+  
+}
+.navbar li a:hover {
+   
+    color:#088178;
+      transition: 0.5s ease;
+    
 }
 
 /* hero section */
@@ -403,7 +409,7 @@ button.normal:hover {
 }
 
 .banner2 .b1 {
-    width: 500px;
+    width: 48%;
     background-image: url("Images/b5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -417,7 +423,7 @@ button.normal:hover {
 }
 
 .banner2 .b2 {
-    width: 500px;
+    width: 48%;
     background-image: url("Images/banner3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
